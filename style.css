@@ -129,6 +129,11 @@ button:hover{
   opacity: 1;
 }
 
+#formats{
+  opacity: 0.8;
+  font-size: 12px;
+}
+
 #submit-btn span, #cancel-btn span{
   padding-right: 5px;
 }

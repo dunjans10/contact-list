@@ -91,6 +91,7 @@ addBtn.addEventListener('click', function(){
         <div class = "record-el">
             <span id = "labelling">Contact Number: </span>
             <span id = "contact-num-content">${item.number}</span>
+           
         </div>
 
         <button type = "button" id = "delete-btn">
@@ -180,7 +181,3 @@ function phoneNumCheck(inputtxt){
         return false;
     }
 }
-// Works for the following formats: 
-// XXX-XXX-XXXX
-// XXX.XXX.XXXX
-// XXX XXX XXXX
